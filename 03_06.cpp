@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    cout<<"请输入方程ax\u00b2+bx+c=0中的abc："<<endl;
+    cout<<"请输入方程ax\u00b2+bx+c=0中的abc："<<endl;//查找了一下指数的unicode
     double a,b,c,x1,x2;
     cout<<"a:";
     cin>>a;

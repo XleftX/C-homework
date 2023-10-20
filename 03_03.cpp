@@ -5,7 +5,7 @@ int main()
     unsigned n;
     cout<<"请输入一个正整数";
     cin>>n;
-    switch(n&7)
+    switch(n%7)
     {
         case 0:cout<<"星期日"<<endl;break;
         case 1:cout<<"星期一"<<endl;break;
