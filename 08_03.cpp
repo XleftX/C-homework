@@ -4,6 +4,7 @@
 
 void uniqueSort(std::vector<int>& container) {
     // 去除重复元素
+    std::sort(container.begin(),container.end());
     container.erase(std::unique(container.begin(), container.end()), container.end());
     
     // 升序排序
